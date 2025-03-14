@@ -71,7 +71,7 @@ The process was initiated by Windows Explorer (explorer.exe), suggesting that th
 
 ---
 
-### 3. Searched the `DeviceProcessEvents` Table for TOR Browser Execution and Connections
+### 3. Searched the `DeviceNetworkEvents` Table for TOR Browser Execution and Connections
 
 After searching DeviceNetworkEvents, I discovered that at 11:10:43 AM on March 14, 2025, on the device "rich-mde-test", the user "labuserich" launched the Tor Browser, and it began listening for incoming connections. Over the next several seconds, multiple successful network connections were established by the Tor process (tor.exe) and its embedded Firefox browser.
 
